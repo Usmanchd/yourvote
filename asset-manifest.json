@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/yourvote/static/css/main.f63d7e5b.chunk.css",
-    "main.js": "/yourvote/static/js/main.d17a764b.chunk.js",
-    "main.js.map": "/yourvote/static/js/main.d17a764b.chunk.js.map",
+    "main.css": "/yourvote/static/css/main.326e98fc.chunk.css",
+    "main.js": "/yourvote/static/js/main.fc050e64.chunk.js",
+    "main.js.map": "/yourvote/static/js/main.fc050e64.chunk.js.map",
     "runtime-main.js": "/yourvote/static/js/runtime-main.23ac4187.js",
     "runtime-main.js.map": "/yourvote/static/js/runtime-main.23ac4187.js.map",
     "static/css/2.ae0433ee.chunk.css": "/yourvote/static/css/2.ae0433ee.chunk.css",
-    "static/js/2.d6597092.chunk.js": "/yourvote/static/js/2.d6597092.chunk.js",
-    "static/js/2.d6597092.chunk.js.map": "/yourvote/static/js/2.d6597092.chunk.js.map",
+    "static/js/2.0861d201.chunk.js": "/yourvote/static/js/2.0861d201.chunk.js",
+    "static/js/2.0861d201.chunk.js.map": "/yourvote/static/js/2.0861d201.chunk.js.map",
     "index.html": "/yourvote/index.html",
-    "precache-manifest.b927376be748ea4b6aa3f82d49c0e60b.js": "/yourvote/precache-manifest.b927376be748ea4b6aa3f82d49c0e60b.js",
+    "precache-manifest.111e219d1307daf2d65c1273f4f0e0e8.js": "/yourvote/precache-manifest.111e219d1307daf2d65c1273f4f0e0e8.js",
     "service-worker.js": "/yourvote/service-worker.js",
     "static/css/2.ae0433ee.chunk.css.map": "/yourvote/static/css/2.ae0433ee.chunk.css.map",
-    "static/css/main.f63d7e5b.chunk.css.map": "/yourvote/static/css/main.f63d7e5b.chunk.css.map",
-    "static/js/2.d6597092.chunk.js.LICENSE.txt": "/yourvote/static/js/2.d6597092.chunk.js.LICENSE.txt",
+    "static/css/main.326e98fc.chunk.css.map": "/yourvote/static/css/main.326e98fc.chunk.css.map",
+    "static/js/2.0861d201.chunk.js.LICENSE.txt": "/yourvote/static/js/2.0861d201.chunk.js.LICENSE.txt",
     "static/media/11.jpg": "/yourvote/static/media/11.9fa837b0.jpg",
     "static/media/analytics.svg": "/yourvote/static/media/analytics.3bd97c45.svg",
     "static/media/form.svg": "/yourvote/static/media/form.f5ca727a.svg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.23ac4187.js",
     "static/css/2.ae0433ee.chunk.css",
-    "static/js/2.d6597092.chunk.js",
-    "static/css/main.f63d7e5b.chunk.css",
-    "static/js/main.d17a764b.chunk.js"
+    "static/js/2.0861d201.chunk.js",
+    "static/css/main.326e98fc.chunk.css",
+    "static/js/main.fc050e64.chunk.js"
   ]
 }
