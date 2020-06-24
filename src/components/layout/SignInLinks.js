@@ -70,6 +70,7 @@ const SignInLinks = () => {
               backgroundColor: '#5744ed',
               border: '0px',
               padding: '0px 4px',
+              color: 'white',
             }}
           >
             Account
