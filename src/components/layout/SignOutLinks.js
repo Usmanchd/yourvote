@@ -14,7 +14,7 @@ const SignOutLinks = () => {
     >
       <h2>YourVote</h2>
 
-      <div class="dropdown dropleft">
+      <div class="dropdown my-dropdown dropleft">
         <button
           class="btn btn-secondary dropdown-toggle"
           type="button"

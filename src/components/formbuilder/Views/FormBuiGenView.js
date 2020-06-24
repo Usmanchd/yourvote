@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactFormBuilder, ReactFormGenerator } from 'react-form-builder2';
+import items from '../items';
 import 'react-form-builder2/dist/app.css';
 
 export default function Formbuilder({ onPost, onSubmit, formData }) {
@@ -75,7 +76,10 @@ export default function Formbuilder({ onPost, onSubmit, formData }) {
         </div>
       </div>
       <div>
-        <ReactFormBuilder onPost={(data) => onPost(data)} />
+        <ReactFormBuilder
+          onPost={(data) => onPost(data)}
+          toolbarItems={items}
+        />
       </div>
     </div>
   );

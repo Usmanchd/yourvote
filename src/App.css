@@ -325,7 +325,7 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.dropdown {
+.my-dropdown {
   display: none;
 }
 .dropdown a {
@@ -350,9 +350,12 @@ h3 {
 }
 
 .react-form-builder-toolbar ul li {
+  font-size: 14px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 180px;
   padding: 15px 25px !important;
   background-color: #5744ed;
 }
@@ -400,7 +403,7 @@ h3 {
   .navbar ul {
     display: none;
   }
-  .dropdown {
+  .my-dropdown {
     display: block;
   }
   .landing img {
@@ -454,7 +457,7 @@ h3 {
   .table th {
     padding: 0px !important;
   }
-  .dropdown {
+  .my-dropdown {
     display: block;
   }
 

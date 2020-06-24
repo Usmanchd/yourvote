@@ -14,7 +14,7 @@ const SignInLinks = () => {
     >
       <h2>YourVote</h2>
 
-      <div class="dropdown dropleft">
+      <div class="dropdown my-dropdown dropleft">
         <button
           class="btn btn-secondary dropdown-toggle"
           type="button"
@@ -26,10 +26,16 @@ const SignInLinks = () => {
         >
           <img src={menu} alt="menu" height="24" style={{ width: '24px' }} />
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div
+          class="dropdown-menu"
+          aria-labelledby="dropdownMenuButton"
+          style={{ width: '250px' }}
+        >
           <div className="dropdown-menu-items">
             <Link to="/dashboard">Dashboard</Link>
             <Link to="/build">Build</Link>
+            <Link to="/changepassword">Change Password</Link>
+            <Link>Manage Emails</Link>
             <button
               style={{
                 color: 'white',
@@ -49,8 +55,37 @@ const SignInLinks = () => {
           <Link to="/dashboard">Dashboard</Link>
         </li>
         <li>
-          <Link to="/build">Build new form</Link>
+          <Link to="/build">Create A Survey</Link>
         </li>
+
+        <li class="dropdown dropleft">
+          <span
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            style={{
+              backgroundColor: '#5744ed',
+              border: '0px',
+              padding: '0px 4px',
+            }}
+          >
+            Account
+          </span>
+          <div
+            class="dropdown-menu"
+            aria-labelledby="dropdownMenuButton"
+            style={{ width: '250px' }}
+          >
+            <div className="dropdown-menu-items">
+              <Link to="/changepassword">Change Password</Link>
+              <Link>Manage Emails</Link>
+            </div>
+          </div>
+        </li>
+
         <li>
           <button
             style={{

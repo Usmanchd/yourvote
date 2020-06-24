@@ -16,7 +16,7 @@ const correctFormElementName = (userSubmitData, formData) => {
   return data;
 };
 
-function Formbuilder({ publish }) {
+function Formbuilder({ publish, forms }) {
   const history = useHistory();
 
   // FrmBuiGenView.js stateNfunctions
@@ -63,7 +63,7 @@ function Formbuilder({ publish }) {
 
   const onPublish = () => {
     const payload = {
-      title: 'myform',
+      title: `myform ${forms.length + 1}`,
       ...type,
       ...publishtype,
       formData: [...formData],
@@ -120,9 +120,9 @@ function Formbuilder({ publish }) {
 
   //modal
   const [modalIsOpen, setIsOpen] = useState(false);
-  function openModal() {
-    setIsOpen(true);
-  }
+  // function openModal() {
+  //   setIsOpen(true);
+  // }
 
   function closeModal() {
     setIsOpen(false);
@@ -194,6 +194,10 @@ function Formbuilder({ publish }) {
   );
 }
 
+const mapStateToProps = (state) => ({
+  forms: state.formbuilder.forms,
+});
+
 const mapDispatchToProps = (dispatch) => {
   return {
     publish: (form) => {
@@ -201,4 +205,4 @@ const mapDispatchToProps = (dispatch) => {
     },
   };
 };
-export default connect(null, mapDispatchToProps)(Formbuilder);
+export default connect(mapStateToProps, mapDispatchToProps)(Formbuilder);

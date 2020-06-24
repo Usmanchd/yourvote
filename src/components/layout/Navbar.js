@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     // use some kind of auth flag to get links, for demostration purpose I am using location to getlinks
     <div>
-      {location.pathname === '/dashboard' || location.pathname === '/build' ? (
+      {location.pathname === '/dashboard' ||
+      location.pathname === '/build' ||
+      location.pathname === '/changepassword' ? (
         <SignInLinks />
       ) : (
         <SignOutLinks />
