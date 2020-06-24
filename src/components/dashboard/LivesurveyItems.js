@@ -20,7 +20,7 @@ const LivesurveyItems = ({ survey }) => {
       text: 'Header Text',
     },
   ]);
-  console.log(survey);
+
   const getDate = (ms) => {
     let newDate = new Date(ms);
     return newDate.toDateString();
@@ -48,7 +48,6 @@ const LivesurveyItems = ({ survey }) => {
                   data-toggle="modal"
                   data-target="#exampleModal"
                   onClick={() => {
-                    console.log(s.formData);
                     setformData(s.formData);
                   }}
                   style={{ display: 'block', margin: 'auto' }}
